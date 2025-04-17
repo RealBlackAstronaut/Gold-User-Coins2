@@ -4,8 +4,9 @@
 		"win": "2.2074",
 		"android": "2.2074",
 		"mac": "2.2074"
+		"ios": "2.2074"
 	},
-	"version": "v2.0.2",
+	"version": "v2.0.3",
 	"id": "colon.gold_user_coins",
 	"name": "Gold User Coins",
 	"developer": "Colon",

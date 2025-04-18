@@ -1,0 +1,22 @@
+name: EndLevelLayer
+inherits: GJGameLevel
+methods:
+  - name: coinEnterFinished
+    addr:
+      win: 0x134230
+      mac: 0x4b0230
+      ios: 0x418e98
+    args:
+      - name: p0
+        type: cocos2d::CCPoint
+    returns: void
+
+  - name: coinEnterFinishedO
+    addr:
+      win: 0x1341f0
+      mac: 0x4b01f0
+      ios: 0x418e4c
+    args:
+      - name: p0
+        type: cocos2d::CCObject*
+    returns: void

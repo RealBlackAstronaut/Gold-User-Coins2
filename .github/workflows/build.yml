@@ -30,9 +30,6 @@ jobs:
           os: ubuntu-latest
           target: Android64
 
-    name: generate-bindings
-    run: geode generate
-
     name: ${{ matrix.config.name }}
     runs-on: ${{ matrix.config.os }}
 
